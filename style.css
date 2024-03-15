@@ -1,0 +1,134 @@
+
+*
+{
+  font-family: 'Times New Roman', Times, serif;
+}
+body
+{
+background-size:cover;
+background-position: center;
+background-repeat: no-repeat;
+height: 100%;background-color: rgb(106, 109, 108);
+}
+h1
+{
+    text-align: center;
+    color: white;
+    background-color: #000000;
+    border-radius: 50px;
+}
+.filmes
+{
+    display:inline-block;
+    color: white;
+    border: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: large;
+    background-color: rgba(0, 0, 0, 0.5); /* Cor de fundo com transparência */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    border-radius: 50px;
+    list-style-type: none;
+}
+.rodape
+{
+    text-align: center;
+    border: solid;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+.filmes li img
+{
+border-radius: 50%;
+}
+.filmes li
+{
+  margin-top:2%;
+  margin-left: 50px;
+}
+.filmes p
+{ 
+  margin-left: 30px;
+  margin-right: 20px;
+}
+.navbar 
+{
+  color: white;
+  margin-left: 25%;
+  margin-right: 25%;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.5); /* Cor de fundo com transparência */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: larger;
+  border-radius: 50px;
+}
+.menu 
+{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-item 
+{
+  display: inline-block;
+  position: relative;
+  margin-left: 15%;
+  font-size: large;
+}
+.submenu 
+{
+  
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background-color: rgba(241, 241, 241, 0.5); /* Cor de fundo com transparência */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra ao submenu */
+}
+.menu-item:hover .submenu 
+{
+  display: block;
+}
+
+.submenu a 
+{
+  display: block;
+  padding: 8px;
+  text-decoration: none;
+  color: #333;
+}
+
+.submenu a:hover 
+{
+  background-color: #ddd;
+}
+input
+{
+margin-left: 42%;
+width: 300px;
+height: 20px;
+border: solid;
+border-radius: 50px;
+text-align: center;
+}
+button
+{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 49%;
+  border: solid;
+border-radius: 50px;
+}
+#resultados :hover
+{
+  text-align: center;
+  border: solid ;
+  background-color: white;
+  margin-left: 25%;
+  margin-right: 25%;
+}
