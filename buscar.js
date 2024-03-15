@@ -9,7 +9,7 @@ botaoBuscar.addEventListener('click', () => {
     const conteudo = barraBusca.value.trim();
     
     // Envia o valor para o script Python usando fetch
-    fetch(`http://127.0.0.1:8080/buscar?conteudo=${conteudo}`)
+    fetch(`http://127.0.0.1:443/buscar?conteudo=${conteudo}`)
         .then(response => response.json())
         .then(data => {
             // Limpa os resultados anteriores
