@@ -4,7 +4,7 @@ import requests
 from bs4 import BeautifulSoup
 
 app = Flask(__name__)
-CORS(app, resources={r"/buscar": {"origins": "*"}})
+CORS(app)  # Adiciona a configuração de CORS ao seu aplicativo Flask
 
 def buscar_filmes_por_conteudo(conteudo, num_paginas=80):
     lista_de_resultados = []
@@ -50,4 +50,4 @@ def buscar():
     return jsonify({'resultados': resultados})
 
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0', port=8080)
+    app.run(debug=True, port=8080)
