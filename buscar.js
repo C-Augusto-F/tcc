@@ -9,10 +9,6 @@ botaoBuscar.addEventListener('click', () => {
         mode: 'cors', // Habilita o modo CORS
         headers: {
             'Origin': 'http://3.129.8.123', // Define a origem da solicitação
-            { key: 'Access-Control-Allow-Credentials', value: 'true' },
-            { key: 'Access-Control-Allow-Origin', value: '*' },
-            { key: 'Access-Control-Allow-Methods', value: 'GET,OPTIONS,PATCH,DELETE,POST,PUT' },
-            { key: 'Access-Control-Allow-Headers', value: 'X-CSRF-Token, X-Requested-With, Accept, Accept-Version, Content-Length, Content-MD5, Content-Type, Date, X-Api-Version, Authorization' },
         }
     })
     .then(response => response.json())
