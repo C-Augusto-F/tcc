@@ -5,11 +5,7 @@ const resultadosDiv = document.getElementById('resultados');
 botaoBuscar.addEventListener('click', () => {
     const conteudo = barraBusca.value.trim();
     
-    fetch(`http://127.0.0.1:8080/buscar?conteudo=${conteudo}`, {
-        mode: 'cors', // Habilita o modo CORS
-        headers: {
-            'Origin': 'http://3.129.8.123', // Define a origem da solicitação
-        }
+    fetch(`http://127.0.0.1:5000/buscar?conteudo=${conteudo}`, {
     })
     .then(response => response.json())
     .then(data => {
