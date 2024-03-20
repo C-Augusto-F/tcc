@@ -8,7 +8,7 @@ botaoBuscar.addEventListener('click', () => {
     fetch(`http://127.0.0.1:8080/buscar?conteudo=${conteudo}`, {
         mode: 'cors', // Habilita o modo CORS
         headers: {
-            'Origin': 'http://3.129.8.123/' // Define a origem da solicitação
+            'Origin': 'http://3.129.8.123' // Define a origem da solicitação
         }
     })
     .then(response => response.json())
