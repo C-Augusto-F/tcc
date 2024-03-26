@@ -5,7 +5,7 @@ const resultadosDiv = document.getElementById('resultados');
 botaoBuscar.addEventListener('click', () => {
     const conteudo = barraBusca.value.trim();
     
-    fetch(`http://127.0.0.1:5000/buscar?conteudo=${conteudo}`, {
+    fetch(`http://127.0.0.1:8080/buscar?conteudo=${conteudo}`, {
     })
     .then(response => response.json())
     .then(data => {
