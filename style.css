@@ -16,6 +16,7 @@ h1
     color: white;
     background-color: #000000;
     border-radius: 50px;
+    margin-top: 15%;
 }
 .filmes
 {
@@ -55,8 +56,8 @@ border-radius: 50%;
 .navbar 
 {
   color: white;
-  margin-left: 25%;
-  margin-right: 25%;
+  margin-left: 35%;
+  margin-right: 35%;
   position: relative;
   background-color: rgba(0, 0, 0, 0.5); /* Cor de fundo com transparência */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -74,7 +75,7 @@ border-radius: 50%;
 {
   display: inline-block;
   position: relative;
-  margin-left: 15%;
+  margin-left: 20%;
   font-size: large;
 }
 .submenu 
@@ -87,18 +88,19 @@ border-radius: 50%;
   list-style: none;
   padding: 0;
   margin: 0;
-  background-color: rgba(241, 241, 241, 0.5); /* Cor de fundo com transparência */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra ao submenu */
+  border-radius: 25px;
+  background-color: rgba(241, 241, 241,9); /* Cor de fundo com transparência */
+  box-shadow: 0 2px 4px rgb(0, 4, 255);/* Adiciona uma sombra ao submenu */
 }
 .menu-item:hover .submenu 
 {
   display: block;
-}
 
+}
 .submenu a 
 {
   display: block;
-  padding: 8px;
+  padding: 10px;
   text-decoration: none;
   color: #333;
 }
@@ -106,6 +108,8 @@ border-radius: 50%;
 .submenu a:hover 
 {
   background-color: #ddd;
+  border-radius: 25px;
+  box-shadow: 0 2px 4px rgb(0, 4, 255);/* Adiciona uma sombra ao hover*/
 }
 input
 {
@@ -124,11 +128,17 @@ button
   border: solid;
 border-radius: 50px;
 }
-#resultados :hover
+/*#resultados :hover
 {
   text-align: center;
   border: solid ;
   background-color: white;
   margin-left: 25%;
   margin-right: 25%;
+}*/ 
+img
+{
+    border-radius: 50px;
+    margin-left: 20%;
+    margin-right: 20%;
 }
